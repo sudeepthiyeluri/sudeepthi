@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="e2fdb08f-832b-44af-a41a-053f9e305e99" ItemType="BusinessFlow" CreatedBy="Sudeepthi.Y" Created="202001221224" GingerVersion="3.4.0.0" Version="5" LastUpdateBy="Sudeepthi.Y" LastUpdate="202001221225" />
+<BusinessFlow Guid="e2fdb08f-832b-44af-a41a-053f9e305e99" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="19d1190f-586d-4e95-9277-0f1cd57f60a0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
+<Acts>
+<ActBrowserElement Active="True" Description="BrowserControl: GotoURL" Guid="f01ca6ef-34f8-43ea-8550-c4e01b8cb854" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="8dfabb5e-ccc9-40f6-9115-5a72d9558a0b" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="11a5cc18-306a-463b-8bae-a1465e121105" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+</InputValues>
+</ActBrowserElement>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="78a614e2-57e6-42ca-b9ad-77d8f17e401e" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="19d1190f-586d-4e95-9277-0f1cd57f60a0" ActivityName="Activity 1" Guid="437060c6-e811-46d6-babf-1937ffcddf90" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="2b9e87ef-50c6-46ab-a78c-9e7d29398d88" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
