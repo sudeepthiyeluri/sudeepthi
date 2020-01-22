@@ -1,13 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="e2fdb08f-832b-44af-a41a-053f9e305e99" ItemType="BusinessFlow" CreatedBy="Sudeepthi.Y" Created="202001221224" GingerVersion="3.4.0.0" Version="5" LastUpdateBy="Sudeepthi.Y" LastUpdate="202001221225" />
+<GingerRepositoryItem><Header ItemGuid="e2fdb08f-832b-44af-a41a-053f9e305e99" ItemType="BusinessFlow" CreatedBy="Sudeepthi.Y" Created="202001221224" GingerVersion="3.4.0.0" Version="14" LastUpdateBy="Satvik.b" LastUpdate="202001221240" />
 <BusinessFlow Guid="e2fdb08f-832b-44af-a41a-053f9e305e99" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="19d1190f-586d-4e95-9277-0f1cd57f60a0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
 <Acts>
-<ActBrowserElement Active="True" Description="BrowserControl: GotoURL" Guid="f01ca6ef-34f8-43ea-8550-c4e01b8cb854" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActBrowserElement Active="True" Description="BrowserControl: GotoURL" Guid="f01ca6ef-34f8-43ea-8550-c4e01b8cb854" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
-<ActInputValue Guid="8dfabb5e-ccc9-40f6-9115-5a72d9558a0b" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="8dfabb5e-ccc9-40f6-9115-5a72d9558a0b" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="www.google.com" />
 <ActInputValue Guid="11a5cc18-306a-463b-8bae-a1465e121105" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="43208b77-724c-4630-ba68-1a2afe281191" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="6437682c-26f2-4d64-8b12-328d225b892c" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="34428fdb-2b8a-4ed2-9876-8e37e3a7bd5c" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="f8915b19-3cc0-467a-a799-a1619dc05ec5" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+<ActBrowserElement Active="True" Description="BrowserControl: GotoURL" Guid="21cb80ef-7886-418e-a8f3-1c2c06c8aee8" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="2e6cb3fe-9a99-4af1-a0e1-881fa36efb63" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://github.com/sudeepthiyeluri/sudeepthi.git" />
+<ActInputValue Guid="7a8abe6b-1d04-4e60-a4b8-864793b37bd6" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="d6f4abc2-e4bb-44ea-9036-602593db2d75" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="2badf010-fecf-48a7-8cc5-39ed600d64e1" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="770b1d1c-1200-466c-9cac-da66ff45ef76" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="2b72b6b5-8f08-406e-946e-bef0411a3969" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActBrowserElement>
 </Acts>
@@ -17,7 +31,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="78a614e2-57e6-42ca-b9ad-77d8f17e401e" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="19d1190f-586d-4e95-9277-0f1cd57f60a0" ActivityName="Activity 1" Guid="437060c6-e811-46d6-babf-1937ffcddf90" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="19d1190f-586d-4e95-9277-0f1cd57f60a0" ActivityName="Activity 1" Guid="a105066e-10f5-49c0-af9a-f91d35a0114c" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>

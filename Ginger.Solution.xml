@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="ecc8bc02-e20c-405b-af13-8a7df23848cd" ItemType="Solution" CreatedBy="Sudeepthi.Y" Created="202001221224" GingerVersion="3.4.0.0" Version="2" LastUpdateBy="Sudeepthi.Y" LastUpdate="202001221224" />
+<GingerRepositoryItem><Header ItemGuid="ecc8bc02-e20c-405b-af13-8a7df23848cd" ItemType="Solution" CreatedBy="Sudeepthi.Y" Created="202001221224" GingerVersion="3.4.0.0" Version="9" LastUpdateBy="Satvik.b" LastUpdate="202001221241" />
 <Solution AlmType="QC" Guid="ecc8bc02-e20c-405b-af13-8a7df23848cd" Name="satvik git" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" CoreGUID="00000000-0000-0000-0000-000000000000" Guid="2da60387-a975-4805-b839-51ae93785db8" GUID="00000000-0000-0000-0000-000000000000" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
